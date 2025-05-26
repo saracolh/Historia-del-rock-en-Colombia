@@ -9,7 +9,7 @@ custom-foot: js/browse-js.html
     <div class="col-md-8 text-center">
         <form role="search" id="browseFilter" onsubmit="submitFilter(); return false;">
             <div class="input-group input-group-lg">
-                <input type="text" class="form-control" id="filterTextBox" placeholder="Filtrar ... " aria-label="Buscar"> 
+                <input type="text" class="form-control" id="filterTextBox" placeholder="Filtrar" aria-label="Buscar"> 
                 <button class="btn btn-success" type="submit" title="Filter items" id="filterButton" >Buscar</button>
                 <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="">Empezar</button>
             </div>
@@ -19,10 +19,10 @@ custom-foot: js/browse-js.html
     <div class="col-md-2">
         <div class="dropdown">
             <button class="btn btn-secondary mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Ordenar por <span id="sortFilter">Orden Aleatorio</span>
+                Ordenar por <span id="sortFilter">Aleatorio</span>
             </button>
             <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
-                <button class="dropdown-item browse-sort-item active" data-filter="random">Orden aleatorio</button>
+                <button class="dropdown-item browse-sort-item active" data-filter="random">Año</button>
                 <button class="dropdown-item browse-sort-item" data-filter="title">Título</button>
                 {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
                 {% for o in sort_options %}
@@ -34,7 +34,7 @@ custom-foot: js/browse-js.html
 </div>
 
 <div id="loadingIcon" class="text-center">
-    <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
+    <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Cargando...</span></div>
 </div>
 
 <div class="row" id="browseItems"></div>
