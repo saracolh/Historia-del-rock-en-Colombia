@@ -22,7 +22,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # title of site appears in banner
 title: Un viaje por la historia del rock en Colombia a través del análisis de prensa entre 1985 y 1995 
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a template for creating simple digital exhibits
+tagline: a template for creating simple digital exhibitsEsta investigación es un aporte a la reconstrucción de la historia del rock nacional, en el que a partir de la búsqueda, recuperación y análisis de prensa se observa la oportunidad de llenar un vacío conceptual, informativo y biográfico, a partir una versión de la historia escrita en la prensa colombiana.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Esta colección contiene documentos de prensa sobre la historia del Rock en Colombia"
