@@ -11,4 +11,5 @@ source,Fuente
 identifier,Identificador de la Fuente,,
 type,Tipo,
 format,Formato,
-rights,Derechos de autor,
+rights,Derechos,
+rightsstatement,Declaración de derechos,,true
